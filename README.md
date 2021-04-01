@@ -12,7 +12,7 @@
   4. Docker Pipeline
   
   
-* Now go to pom.xml of project containing dockerfile and add finalname tag and write jar name inside it.
+* Now go to pom.xml of project containing dockerfile and add finalname tag and write jar name inside it like `<finalname>`docker-jenkins-integration-sample `<finalname>`
 * My custom jar name is : docker-jenkins-integration-sample
 
 * Open created job for project and then click on Configure
