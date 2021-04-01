@@ -1,6 +1,6 @@
 # Prerequisites:
   * Require a project with written dockerfile in it.
-  * Docker should be installed and then Start docker
+  * Docker should be installed and then start docker
   * Jenkins should be installed and then start jenkins
 
 # Steps to integrate jenkins with docker
@@ -19,10 +19,10 @@
 * Open created job for project in jenkins and then click on Configure
 * Go to build tab and select "Docker Build and Publish" from dropdown in build section
 * Add repository name as :  dockerId or username/jarname
-      * Example:
-          * my docker hub account username = shilparaghav
-          * my jar name = docker-jenkins-integration-sample
-   * So repository name will be: shilparaghav/docker-jenkins-integration-sample
+* Example:
+    * my docker hub account username = shilparaghav
+    * my jar name = docker-jenkins-integration-sample
+  * So repository name will be: shilparaghav/docker-jenkins-integration-sample
    
 * Add Registry Credentials also in build section ,if not exist in dropdown (add username and password of dockerhub account)
 * Select added registry credentials of your own account
