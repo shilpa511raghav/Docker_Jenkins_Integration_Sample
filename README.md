@@ -1,6 +1,6 @@
 # Prerequisites:
   * Require a project with written dockerfile in it.
-  * Start docker
+  * Docker should be installed and then Start docker
 
 # Steps to integrate jenkins with docker
 * Download docker for windows above version 10 and incase of window 7 & below versions use docker toolbox
