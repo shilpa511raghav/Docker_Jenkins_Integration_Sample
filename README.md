@@ -15,7 +15,7 @@
 * Now go to pom.xml of project containing dockerfile and add finalname tag and write jar name inside it like `<finalname>`docker-jenkins-integration-sample `<finalname>`
 * My custom jar name is : docker-jenkins-integration-sample
 
-* Open created job for project and then click on Configure
+* Open created job for project in jenkins and then click on Configure
 * Go to build tab and select "Docker Build and Publish" from dropdown in build section
   * Add repository name as :  dockerId or username/jarname
       * Example:
